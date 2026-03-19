@@ -41,6 +41,14 @@ img {
   list-style-type: none;
 }
 
+.navList a{
+  text-decoration: none;
+}
+
+.navList a:hover{
+  text-decoration: underline;
+}
+
 .hamburgerIcon {
   height: 3.2rem;
   width: 3.2rem;
