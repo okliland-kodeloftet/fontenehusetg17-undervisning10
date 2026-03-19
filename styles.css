@@ -1,0 +1,96 @@
+/* GLOBAL */
+html {
+  /* Standard font-size er 16px. 16px = 1em */
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Roboto";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue";
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+  background-color: #5f506b;
+}
+
+/* HEADER */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 1.6rem;
+}
+
+.navList {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 1.6rem;
+  list-style-type: none;
+}
+
+.hamburgerIcon {
+  height: 3.2rem;
+  width: 3.2rem;
+  display: none;
+  background-color: initial;
+}
+
+/* MAIN */
+main {
+  padding: 0 1.6rem;
+}
+
+section {
+  height: 100dvh;
+  border-bottom: 1px solid black;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0 1.6rem;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 426px) {
+  /* HEADER */
+  .headerNav {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+
+  .navList {
+    display: none;
+  }
+
+  .navHamburgerList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .hamburgerIcon {
+    display: inline;
+  }
+
+  /* MAIN */
+
+  /* FOOTER */
+}
